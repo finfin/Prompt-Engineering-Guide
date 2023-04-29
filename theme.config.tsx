@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
   ),
   i18n: [
     { locale: 'en', text: 'English' },
-    { locale: 'zh', text: '中文' },
+    { locale: 'zh', text: '简体中文' },
     { locale: 'jp', text: '日本語'},
     { locale: 'pt', text: 'Português' },
     { locale: 'it', text: 'Italian' },
@@ -25,6 +25,7 @@ const config: DocsThemeConfig = {
     { locale: 'es', text: 'Español' },
     { locale: 'fr', text: 'Français' },
     { locale: 'kr', text: '한국어' },
+    { locale: 'zh-TW', text: '繁體中文' },
   ],
   head: function UseHead() {
     const { title } = useConfig()
